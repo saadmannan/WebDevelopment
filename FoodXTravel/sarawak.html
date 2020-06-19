@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title> SARAWAK</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="icon" href="logo.jpg">
+<link rel="stylesheet" href="voyagers.css">
+<link rel="stylesheet" href="Home.CSS">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- start header -->
+<ul class="main-nav">
+  <li > <a href="Homepage.html">Home</a> </li>
+  <li > <a href="">Eat</a> </li>
+  <li >
+    <div class="dropdown">
+  <button class="dropbtn">Destination
+  <i class="fa fa-caret-down"></i>
+ </button>
+<div class="dropdown-content">
+<a href="destination.html">All</a>
+<a href="johor.html">Johor</a>
+<a href="kedah.html">kedah</a>
+<a href="Kelantan.html">Kelantan</a>
+<a href="melaka.html"> Melaka</a>
+<a href="pulaupinang.html"> Pulau Pinang</a>
+<a href="n9.html"> Negeri Sembilan</a>
+<a href="sabah.html">Sabah</a>
+<a href="sarawak.html">Sarawak</a>
+<a href="Terengganu.html"> Terengganu </a>
+</div>
+</div>
+  </li>
+  <li > <a href=" ">Articles</a> </li>
+  <li > <a href="index.html ">About</a>  </li>
+
+  <form class="search" >
+    <input type="text" placeholder="Search..." name="search">
+<button type="button">Search </button>
+  </form>
+  </ul>
+    <br><br>
+      <!-- end header -->
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="image/srw1.jpg" style="width:100%" style="height:65%">
+      <div class="text"> </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="image/srw2.jpg" style="width:100%" style="height:65%">
+      <div class="text"> </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="image/srw3.jpg" style="width:100%" style="height:65%">
+      <div class="text"> </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="image/srw4.jpg" style="width:100%" style="height:65%">
+      <div class="text"> </div>
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+
+  <div class="box">
+    <div class="content">
+      <h1>Sarawak - Sarawak Cultural Village </h1>
+      <article>
+        <p>Known as the 'Living Museum', the Cultural Village was set up to preserve and showcase Sarawak's cultural heritage.
+          Located at Pantai Damai, Santubong, just 32km from the state capital, Kuching, it is the perfect place to get introduced
+          to local culture and lifestyle. Sprawled across 17 acres, there are about 150 people living in the village, demonstrating
+          traditional daily activities from Sarawak's diverse tribes like the processing of sago and the making of handicrafts.
+          They wear traditional costumes and also put on dances for visitors. The village residents provide information on
+          their various traditional cultures and lifestyles. You can see replicas of buildings that represent every major
+          ethnic group in Sarawak; longhouses of the Iban, Bidayuh and Orang Ulu, a Melanau tall-house and a Chinese farm
+          house among others. </p>
+        <br/>
+        <p>The village also has a theatre, where you can enjoy multicultural dance performances. Besides this, there is a restaurant
+          and handicraft shop. You can even get married at the Sarawak Cultural Village, in traditional Iban, Malay, Bidayuh
+          or Orang Ulu style. The Iban longhouse has separate rooms placed side by side, all of which open to a long communal
+          hall, used for leisurely activities like wood carving and basket weaving. Guests are often invited to attend nightly
+          ceremonies and drink a potent rice wine, tuak, which the Iban make themselves. Comfortable guesthouses are also
+          available for visitors.</p>
+
+        <br/>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+      </article>
+
+    </div>
+  </div>
+  <br/>
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.5372336806486!2d110.31410831429626!3d1.7493941987244104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31faff9b79920b5b%3A0xc8ec684fe5cc73bf!2sSarawak+Cultural+Village%2C+Kampung+Budaya+Sarawak%2C+93010+Kuching%2C+Sarawak!5e1!3m2!1sen!2smy!4v1514101162501"
+      width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div id="map"></div>
+  <script>
+    var map;
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById("map"), {
+        var  location = { lat: 6.075313, lng: 116.558824 },
+        zoom: 8
+          center: location
+      });
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map
+      })
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrv1ge7VgVzvNTsYYz5Co5wh1_dtbm9K8&callback=initMap">
+
+  </script>
+  <!--start comment box-->
+  <form action="contact" method="post" class="form" novalidate="novalidate">
+  </br>
+    <b>
+      <p> what's on your mind?</p>
+    </b>
+    <p>Name :
+      <br />
+
+           <input type="text"  required placeholder="Enter name"  size="40" aria-required="true" aria-invalid="false" id="name">
+
+    </p>
+    <p>Date :
+      <br />
+      <input type="date" name="date" value="" aria-required="true" aria-invalid="false" id="date">
+    </p>
+
+    <form>
+      <p>Add a comment ... </p>
+      <textarea id="words" rows="10" cols="40"> </textarea>
+      <br>
+      <input type="button" onclick="getwords()" value="Add comment" />
+
+      <p>
+        <span id='display'></span>
+      </p>
+
+    </form>
+
+
+    <script type="text/javascript">
+      function getwords() {
+
+        document.getElementById("display").innerHTML =
+          document.getElementById("name").value + "</br>" + document.getElementById("date").value + "</br>" + document.getElementById("words").value + "  <hr/>";
+
+      }
+    </script>
+    </div>
+    <!--end comment box-->
+
+      <!--start the footer-->
+    <div id="footer">
+    <div>
+    <h2 style="color:white; ">Contact Us:</h2>
+    <h3 >Mailing Address:</h3>
+    Post Code:53100 <br>
+    International Islamic University Malaysia<br>
+    Email: foodxtravel22@gmail.com<br>
+    <h3>Phone:</h3>
+    +601546781234
+    </div>
+    <div>
+    <h2 style="color:white;">Social Media:</h2>
+     <a href="https://www.facebook.com/"> <img class="fb" src="fb1.png" alt="facebook"></a>
+    <a href="https://www.instagram.com/?hl=en"> <img class="insta" src="ins.png" alt="insta"></a>
+    <a href="https://twitter.com/?lang=en"><img class="twitter" src="tw.png" alt="twitter"><br></a>
+    <a href="https://www.youtube.com/"> <img class="youtube" src="you.png" alt="youtube"></a>
+    </div>
+    <div>
+    <h2 style="color:white;">Other:</h2>
+    <p>&copy FoodXTravel.com - All Rights Reserved</p><br>
+    <img class="lg" src="logo.jpg" alt="Logo" >
+    </div>
+    </div><br>
+    <marquee width = "100%" direction="right">
+      <h2>Thanks For Visiting Our Website</h2>
+    </marquee>
+    <script type="text/javascript" src="script.js"></script>
+  <!--start the footer-->
+</body>
+
+</html>
